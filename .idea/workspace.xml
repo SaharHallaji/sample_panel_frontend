@@ -4,81 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4168f5f-9ddf-489d-91ce-2dab11bcfc8e" name="Changes" comment="tailwind has added to the project.">
-      <change afterPath="$PROJECT_DIR$/.nuxt/components.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/imports.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/nuxt.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/schema/nuxt.schema.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/schema/nuxt.schema.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/tsconfig.server.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/types/app.config.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/types/imports.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/types/nitro-config.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/types/nitro-imports.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/types/nitro-nuxt.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/types/nitro-routes.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/types/nitro.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/types/plugins.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/types/schema.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/types/vue-shim.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/vue-router-stub.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@nuxt/vite-builder/node_modules/.bin/autoprefixer" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@nuxt/vite-builder/node_modules/.bin/autoprefixer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@rollup/plugin-replace/node_modules/.bin/rollup" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/commander/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/commander/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/commander/esm.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/commander/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/commander/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/commander/lib/argument.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/commander/lib/command.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/commander/lib/error.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/commander/lib/help.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/commander/lib/option.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/commander/lib/suggestSimilar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/commander/package-support.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/commander/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/commander/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/commander/typings/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/commander/typings/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rollup-plugin-visualizer/node_modules/.bin/rollup" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/vite-node/node_modules/.bin/vite" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vite-node/node_modules/.bin/vite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/vite-node/node_modules/vite/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/vite-node/node_modules/vite/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/vite-node/node_modules/vite/bin/openChrome.applescript" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/vite-node/node_modules/vite/bin/vite.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/vite-node/node_modules/vite/client.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/vite-node/node_modules/vite/dist/client/client.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/vite-node/node_modules/vite/dist/client/client.mjs.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/vite-node/node_modules/vite/dist/client/env.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/vite-node/node_modules/vite/dist/client/env.mjs.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/vite-node/node_modules/vite/dist/node-cjs/publicUtils.cjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/vite-node/node_modules/vite/dist/node/chunks/dep---u6OAyB.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/vite-node/node_modules/vite/dist/node/chunks/dep-8a-6Quh6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/vite-node/node_modules/vite/dist/node/chunks/dep-9A4-l-43.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/vite-node/node_modules/vite/dist/node/chunks/dep-FrUgnvs5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/vite-node/node_modules/vite/dist/node/chunks/dep-kjUoH5nk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/vite-node/node_modules/vite/dist/node/cli.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/vite-node/node_modules/vite/dist/node/constants.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/vite-node/node_modules/vite/dist/node/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/vite-node/node_modules/vite/dist/node/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/vite-node/node_modules/vite/index.cjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/vite-node/node_modules/vite/index.d.cts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/vite-node/node_modules/vite/node_modules/.bin/esbuild" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/vite-node/node_modules/vite/node_modules/.bin/rollup" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/vite-node/node_modules/vite/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/vite-node/node_modules/vite/types/customEvent.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/vite-node/node_modules/vite/types/hmrPayload.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/vite-node/node_modules/vite/types/hot.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/vite-node/node_modules/vite/types/import-meta.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/vite-node/node_modules/vite/types/importGlob.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/vite-node/node_modules/vite/types/importMeta.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/vite-node/node_modules/vite/types/metadata.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/vite-node/node_modules/vite/types/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nuxt.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="b4168f5f-9ddf-489d-91ce-2dab11bcfc8e" name="Changes" comment="tailwind has added to the project." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -173,7 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1706350362493</updated>
       <workItem from="1706350363869" duration="503000" />
-      <workItem from="1706350885574" duration="1647000" />
+      <workItem from="1706350885574" duration="1982000" />
     </task>
     <task id="LOCAL-00001" summary="Project init">
       <option name="closed" value="true" />
@@ -199,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706352531830</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="tailwind has added to the project.">
+      <option name="closed" value="true" />
+      <created>1706352576475</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706352576475</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
