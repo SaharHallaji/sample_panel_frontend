@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4168f5f-9ddf-489d-91ce-2dab11bcfc8e" name="Changes" comment="Project init">
+    <list default="true" id="b4168f5f-9ddf-489d-91ce-2dab11bcfc8e" name="Changes" comment="tailwind has added to the project.">
       <change afterPath="$PROJECT_DIR$/.nuxt/components.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.nuxt/imports.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.nuxt/nuxt.d.ts" afterDir="false" />
@@ -123,6 +123,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
+    "npm.build.executor": "Run",
     "npm.dev.executor": "Run",
     "ts.external.directory.path": "/snap/webstorm/354/plugins/javascript-impl/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
@@ -172,7 +173,7 @@
       <option name="presentableId" value="Default" />
       <updated>1706350362493</updated>
       <workItem from="1706350363869" duration="503000" />
-      <workItem from="1706350885574" duration="1226000" />
+      <workItem from="1706350885574" duration="1647000" />
     </task>
     <task id="LOCAL-00001" summary="Project init">
       <option name="closed" value="true" />
@@ -190,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706351031023</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="tailwind has added to the project.">
+      <option name="closed" value="true" />
+      <created>1706352531830</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706352531830</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +208,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Project init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project init" />
+    <MESSAGE value="tailwind has added to the project." />
+    <option name="LAST_COMMIT_MESSAGE" value="tailwind has added to the project." />
   </component>
 </project>
