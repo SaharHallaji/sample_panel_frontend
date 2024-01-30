@@ -14,7 +14,5 @@
 </template>
 
 <style scoped>
-#account_layout{
-  background-image: url("~/assets/images/img_account_background.jpg");
-}
+
 </style>
