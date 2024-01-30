@@ -4,12 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4168f5f-9ddf-489d-91ce-2dab11bcfc8e" name="Changes" comment="axios has added to the project.">
+    <list default="true" id="b4168f5f-9ddf-489d-91ce-2dab11bcfc8e" name="Changes" comment="account layout +&#10;sign in UI">
       <change afterPath="$PROJECT_DIR$/.nuxt/nuxt.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.nuxt/types/layouts.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.nuxt/types/middleware.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/img_account_background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layouts/account.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/dashboard/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/forgotPass.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/signUp.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/components.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/components.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/imports.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/imports.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.nuxt/manifest/latest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/manifest/latest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.nuxt/manifest/meta/dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/manifest/meta/dev.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.nuxt/nitro.json" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/nitro.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/nuxt.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/nuxt.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/types/imports.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/types/imports.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/types/plugins.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/types/plugins.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.bin/terser" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/terser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
@@ -114,6 +127,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="Vue Composition API Component" />
       </list>
     </option>
   </component>
@@ -134,30 +148,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/sahar/projects/sample_panel_frontend/plugins",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "npm.build.executor": "Run",
-    "npm.dev.executor": "Run",
-    "ts.external.directory.path": "/home/sahar/projects/sample_panel_frontend/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/sahar/projects/sample_panel_frontend/plugins&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/sahar/projects/sample_panel_frontend/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;vue.recent.templates&quot;: [
+      &quot;Vue Composition API Component&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/plugins" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -204,7 +226,8 @@
       <option name="presentableId" value="Default" />
       <updated>1706350362493</updated>
       <workItem from="1706350363869" duration="503000" />
-      <workItem from="1706350885574" duration="3587000" />
+      <workItem from="1706350885574" duration="10772000" />
+      <workItem from="1706637836387" duration="4918000" />
     </task>
     <task id="LOCAL-00001" summary="Project init">
       <option name="closed" value="true" />
@@ -246,17 +269,38 @@
       <option name="project" value="LOCAL" />
       <updated>1706353201240</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="typescript has added to the project.">
+      <option name="closed" value="true" />
+      <created>1706354519595</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706354519595</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Project init" />
     <MESSAGE value="tailwind has added to the project." />
     <MESSAGE value="axios has added to the project." />
-    <option name="LAST_COMMIT_MESSAGE" value="axios has added to the project." />
+    <MESSAGE value="typescript has added to the project." />
+    <MESSAGE value="account layout +&#10;sign in UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="account layout +&#10;sign in UI" />
   </component>
 </project>
