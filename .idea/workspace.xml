@@ -4,119 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4168f5f-9ddf-489d-91ce-2dab11bcfc8e" name="Changes" comment="account layout +&#10;sign in UI">
-      <change afterPath="$PROJECT_DIR$/.nuxt/nuxt.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/types/layouts.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nuxt/types/middleware.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/img_account_background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/account.vue" afterDir="false" />
+    <list default="true" id="b4168f5f-9ddf-489d-91ce-2dab11bcfc8e" name="Changes" comment="remove background.">
       <change afterPath="$PROJECT_DIR$/pages/dashboard/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/forgotPass.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pages/signUp.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/components.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/components.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/imports.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/imports.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.nuxt/manifest/latest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/manifest/latest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.nuxt/manifest/meta/dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/manifest/meta/dev.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.nuxt/nitro.json" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/nitro.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/nuxt.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/nuxt.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/types/imports.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/types/imports.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/types/plugins.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/types/plugins.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/terser" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/terser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@rollup/plugin-terser/node_modules/.bin/terser" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@rollup/plugin-terser/node_modules/.bin/terser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/commander/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/commander/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/commander/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/commander/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/commander/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/commander/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/commander/typings/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/commander/typings/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/dist/source-map.debug.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/dist/source-map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/dist/source-map.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/dist/source-map.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/lib/array-set.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/lib/base64-vlq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/lib/base64.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/lib/binary-search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/lib/mapping-list.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/lib/quick-sort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/lib/source-map-consumer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/lib/source-map-generator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/lib/source-node.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/lib/util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/source-map.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/source-map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map/dist/source-map.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map/dist/source-map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map/lib/array-set.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map/lib/array-set.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map/lib/base64-vlq.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map/lib/base64-vlq.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map/lib/base64.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map/lib/base64.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map/lib/binary-search.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map/lib/binary-search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map/lib/mapping-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map/lib/mapping-list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map/lib/mappings.wasm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map/lib/read-wasm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map/lib/source-map-consumer.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map/lib/source-map-consumer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map/lib/source-map-generator.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map/lib/source-map-generator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map/lib/source-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map/lib/source-node.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map/lib/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map/lib/util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map/lib/wasm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map/source-map.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map/source-map.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map/source-map.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map/source-map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/PATRONS.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/PATRONS.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/bin/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/bin/terser" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/bin/terser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/dist/bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/dist/bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/dist/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/ast.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/cli.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/compress/common.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/compress/compressor-flags.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/compress/drop-side-effect-free.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/compress/drop-unused.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/compress/evaluate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/compress/global-defs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/compress/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/compress/inference.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/compress/inline.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/compress/native-objects.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/compress/reduce-vars.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/compress/tighten-body.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/equivalent-to.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/minify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/mozilla-ast.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/output.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/parse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/propmangle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/scope.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/size.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/sourcemap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/transform.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/utils/first_in_statement.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/utils/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/node_modules/.bin/acorn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/node_modules/commander/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/node_modules/commander/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/node_modules/commander/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/node_modules/commander/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/node_modules/commander/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/node_modules/commander/typings/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/tools/domprops.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/tools/domprops.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/tools/exit.cjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/tools/terser.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/tools/terser.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +122,7 @@
       <updated>1706350362493</updated>
       <workItem from="1706350363869" duration="503000" />
       <workItem from="1706350885574" duration="10772000" />
-      <workItem from="1706637836387" duration="4918000" />
+      <workItem from="1706637836387" duration="10640000" />
     </task>
     <task id="LOCAL-00001" summary="Project init">
       <option name="closed" value="true" />
@@ -277,7 +172,39 @@
       <option name="project" value="LOCAL" />
       <updated>1706354519595</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="account layout +&#10;sign in UI">
+      <option name="closed" value="true" />
+      <created>1706643908858</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706643908858</updated>
+    </task>
+    <task id="LOCAL-00008" summary="forgot password pages UI.">
+      <option name="closed" value="true" />
+      <created>1706644869506</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1706644869506</updated>
+    </task>
+    <task id="LOCAL-00009" summary="change outlines">
+      <option name="closed" value="true" />
+      <created>1706647454339</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1706647454339</updated>
+    </task>
+    <task id="LOCAL-00010" summary="remove background.">
+      <option name="closed" value="true" />
+      <created>1706647476523</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1706647476523</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +228,9 @@
     <MESSAGE value="axios has added to the project." />
     <MESSAGE value="typescript has added to the project." />
     <MESSAGE value="account layout +&#10;sign in UI" />
-    <option name="LAST_COMMIT_MESSAGE" value="account layout +&#10;sign in UI" />
+    <MESSAGE value="forgot password pages UI." />
+    <MESSAGE value="change outlines" />
+    <MESSAGE value="remove background." />
+    <option name="LAST_COMMIT_MESSAGE" value="remove background." />
   </component>
 </project>
